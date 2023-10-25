@@ -200,7 +200,7 @@ li .youtube-logo,
     font-weight: 700;
 }
 
-.online-game-span {
+.online-game-span, .play-instenly-style {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -209,9 +209,10 @@ li .youtube-logo,
     padding: 0px;
 }
 
-.online-game-paragraph {
+.online-game-paragraph{
     text-align: center;
     font-weight: 200;
+    color: #534C64;
 }
 /* images container add */
 .online-game-imges-container{
@@ -222,4 +223,102 @@ li .youtube-logo,
 }
 .online-images{
     width: 100%;
+}
+
+.play-instenly-container{
+    display: flex;
+    padding: 0 120px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.play-instenly-subcontainer-01{
+    flex: 1;
+    text-align: right;
+    padding-right: 80px;
+}
+.intenly-title{
+    font-size: 2rem;
+    padding: 0;
+    margin: 0;
+}
+.intenly-paragraph{
+    font-size: 0.8rem;
+    font-weight: 200;
+    color: #534C64;
+}
+
+.play-instenly-subcontainer-02{
+    flex: 1;
+    position: relative;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.images-55{
+    width: 360px;
+    height: 350px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+
+}
+.images-66{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+@media only screen and (max-width: 576px) {
+    .bannar-container {
+        padding: 0 80px;
+        flex-direction: column;
+    }
+    .bannar-subcontainer-02{
+        flex-direction: column;
+    }
+    .bannar-container-2{
+        padding: 0px 80px;
+        flex-direction: column-reverse;
+        margin-top: 50px;
+    }
+    .bannar-title{
+        font-size: 1.5rem;
+    }
+    .bannar-gradian-text-color{
+        font-size: 2.5rem;
+    }
+
+    .gamer-container{
+        padding: 0 80px;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .gamer-subcontainer-02{
+        text-align: center;
+        font-size: 0.80rem;
+        margin: 0;
+    }
+    .gamer-button{
+        font-size: 0.7rem;
+        margin-bottom: 15px;
+    }
+    .span-style{
+        font-size: 1rem;
+    }
+    .online-game-imges-container{
+        grid-template-columns: 1fr;
+    }
+    .online-game-title{
+        font-size: 1.5rem;
+    }
+    .online-game-paragraph{
+        font-size: 0.80em;
+        margin-bottom: 35px;
+        color: #534C64;
+    }
+    
 }
