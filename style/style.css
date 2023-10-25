@@ -213,3 +213,13 @@ li .youtube-logo,
     text-align: center;
     font-weight: 200;
 }
+/* images container add */
+.online-game-imges-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    padding: 0px 120px;
+}
+.online-images{
+    width: 100%;
+}
