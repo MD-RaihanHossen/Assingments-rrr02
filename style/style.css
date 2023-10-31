@@ -272,6 +272,49 @@ li .youtube-logo,
     bottom: 0;
     left: 0;
 }
+/* play instandly section end */
+.fotter-container{
+    margin-top: 80px;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.text-color{
+    color: #fff;
+}
+.our-other-option-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list{
+    list-style: none;
+    padding: 5px 12px;
+    color: #FFF;
+}
+.fotter-images{
+    width: 20px;
+    height: 20px;
+    padding: 10px 25px;
+}
+.photos-of-fotters-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+.terms-condition{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 0.7rem;
+}
+.paragraph{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 80px 0;
+}
 
 @media only screen and (max-width: 576px) {
     .bannar-container {
@@ -356,5 +399,14 @@ li .youtube-logo,
     .images-66{
         width: 120px;
         height: 120px;
+    }
+    .list{
+        font-size: 0.6rem;
+    }
+    .our-other-option-container{
+        display: grid;
+        grid-template-columns:repeat(2, 1fr);
+        padding: 0px;
+        margin: 0px;
     }
 }
