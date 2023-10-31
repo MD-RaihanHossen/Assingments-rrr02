@@ -118,6 +118,7 @@ li .youtube-logo,
     color: white;
     padding: 10px 25px;
     margin-right: 10px;
+    margin-bottom: 10px;
 
 }
 
@@ -274,14 +275,14 @@ li .youtube-logo,
 
 @media only screen and (max-width: 576px) {
     .bannar-container {
-        padding: 0 80px;
+        padding: 0 30px;
         flex-direction: column;
     }
     .bannar-subcontainer-02{
         flex-direction: column;
     }
     .bannar-container-2{
-        padding: 0px 80px;
+        padding: 0px 30px;
         flex-direction: column-reverse;
         margin-top: 50px;
     }
@@ -293,7 +294,7 @@ li .youtube-logo,
     }
 
     .gamer-container{
-        padding: 0 80px;
+        padding: 0 30px;
         flex-direction: column;
         margin-top: 50px;
     }
@@ -315,10 +316,45 @@ li .youtube-logo,
     .online-game-title{
         font-size: 1.5rem;
     }
+    .intenly-title{
+        font-size: 1.5rem;
+    }
     .online-game-paragraph{
         font-size: 0.80em;
         margin-bottom: 35px;
         color: #534C64;
     }
+
+    .play-instenly-container{
+        flex-direction: column;
+        padding: 0;
+        gap: 0;
+        padding: 0 50px;
+        
+    }
+    .online-game-title{
+        font-size: 1.5rem;
+    }
+    .play-instenly-subcontainer-01{
+        padding-right: 0px;
+    }
+    .play-instenly-subcontainer-02{
+        height: 100%;
+        border-radius: 10px;
+        padding: 0px;
+        margin-top: 60px;
+    }
+    .images-containar-1{
+        width: 360px;
+        height: 380px;
+    }
+    .images-55{
+        width: 300px;
+        height: 290px;
     
+    }
+    .images-66{
+        width: 120px;
+        height: 120px;
+    }
 }
